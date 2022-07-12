@@ -34,3 +34,32 @@ html {
   height: 100%;
   width: 45%;
 }
+form {
+  padding-left: 10%;
+}
+input {
+  width: 20%;
+  height: 10%;
+  font-size: 1.4vw;
+  font-weight: 200;
+  border: 0.4vw double seagreen;
+  border-radius: 1vw;
+  line-height: 200%;
+}
+input:focus {
+  background-color: lightblue;
+}
+.submit {
+  margin-top: 10%;
+}
+#head2_1 {
+  font-size: 1.5vw;
+  color: seagreen;
+}
+#para2_1 {
+  font-size: 1.3vw;
+  color: aqua;
+}
+button {
+  margin-top: 10%;
+}
