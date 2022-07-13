@@ -242,7 +242,7 @@ div {
   margin-bottom: 4%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 #sect4_head {
   width: 30%;
@@ -251,9 +251,26 @@ div {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  font-size: 1.7vw;
   margin-top: -2.5%;
   margin-left: 5%;
   background-color: #d0f0c0;
   border-radius: 1vw;
   box-shadow: 0.3vw 0.3vw 0.8vw grey;
+}
+#sect4_cont {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#s4_cont1 {
+  width: 47%;
+  height: 100%;
+}
+#s4_cont2 {
+  width: 47%;
+  height: 100%;
 }
