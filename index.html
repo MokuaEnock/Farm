@@ -17,7 +17,7 @@
     <!--=============Header================-->
     <header>
       <div id="head">
-        <div id="logo"><h1>Mkulima</h1></div>
+        <div id="logo"><h1>Farm~Acy</h1></div>
         <div id="head_info">
           <div class="head_info"><h3>Home</h3></div>
           <div class="head_info"><h3>Products</h3></div>
@@ -108,18 +108,43 @@
     <section>
       <div id="section4">
         <div id="sect4_head">
-          <h2>Tell us something</h2>
+          <h2>Tell us about you</h2>
         </div>
         <div id="sect4_cont">
           <div id="s4_cont1">
             <form action="https://httpbin.org/get" method="get" target="_blank">
-              <label for="firsName">Hello I am Mkulima whats your name?</label>
+              <label for="firstName">Hello I am Mkulima whats your name?</label>
               <br />
               <input
                 type="text"
                 name="firstName"
                 id="firstName"
                 placeholder="Jane"
+                required
+              />
+              <!--years-->
+              <br />
+              <label for="years"
+                >I have been a farmer for the last 20 years what about
+                you?</label
+              >
+              <br />
+              <input
+                type="number"
+                name="years"
+                id="years"
+                placeholder="0"
+                required
+              />
+              <!--Location-->
+              <br />
+              <label for="location">Where is your farm Located?</label>
+              <br />
+              <input
+                type="select"
+                name="location"
+                id="location"
+                placeholder="e.g Nairobi"
                 required
               />
             </form>
@@ -129,6 +154,17 @@
       </div>
     </section>
 
-    <!--==========Section 4===========-->
+    <!--==========Section 5===========-->
+    <section>
+      <div id="section5">
+        <form action="https://httpbin.org/get">
+          <label for="button1"></label>
+          <input type="button" id="button1" value="Small scale farmer" />
+
+          <label for="button1"></label>
+          <input type="button" id="button1" value="Small scale farmer" />
+        </form>
+      </div>
+    </section>
   </body>
 </html>
